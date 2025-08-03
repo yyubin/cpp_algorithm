@@ -1,0 +1,50 @@
+# === JetBrains CLion ===
+.idea/
+*.iml
+
+# === CMake ===
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+Testing/
+build/
+compile_commands.json
+cmake-build-debug/*
+
+# === Executables ===
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+*.app
+
+# === OS-specific ===
+.DS_Store
+Thumbs.db
+
+# === Logs and temporary files ===
+*.log
+*.tmp
+*.swp
+*.swo
+
+# === CLion profiler ===
+*.perf
+
+# === GDB / debugging ===
+*.gch
+*.dSYM/
+
+# === Other ===
+tags
+.vscode/
+# 출력 실행 파일
+/bin/
+
+*
+!*.*
+!*/

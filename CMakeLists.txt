@@ -16,5 +16,7 @@ add_executable(
 #        baekjoon/math/no_29753_최소성적.cpp
 #        baekjoon/dp/no_17130_토끼가정보섬에올라온이유.cpp
 #        baekjoon/dfs/no_26169_세번이내에사과를먹자.cpp
-        baekjoon/implementation/no_27111_출입기록.cpp
+#        baekjoon/implementation/no_27111_출입기록.cpp
+        # note/back_tracking/n_queen.cpp
+        baekjoon/back_tracking/no_1342_행운의문자열.cpp
 )
